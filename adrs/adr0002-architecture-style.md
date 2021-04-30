@@ -5,11 +5,12 @@ Creation: 26.Apr.2021
 _current status_
 
 ## Context
-The current architecture style of the system is a monolith.
-The following limitations were identified when analysing the documentation/slides and speech
-[](images/issues-and-quality-attributes.png)
-
-_Drivers for the ADR and reasoning_
+The current architecture style of the system is a monolith.  
+The following limitations were identified when analysing the documentation/slides and video.  
+<p align="center">
+<img width="50%" src="images/issues-and-quality-attributes.png"/>  
+</p>
+Moreover, it has been perceived that costs are not a main limiting driver for the architecture style. 
 
 ## Decision
 
