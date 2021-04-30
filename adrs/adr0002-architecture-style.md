@@ -15,7 +15,7 @@ Moreover, it has been perceived that costs are not a main limiting driver for th
   
 The possible Architecture styles are provided below  
 <p align="center">
-<img width="75%" src="images/architecture-styles-worksheet.png"/>  
+<img width="75%" src="images/architecture-styles-worksheet-annotated.png"/>  
 </p>
 
 ## Decision
