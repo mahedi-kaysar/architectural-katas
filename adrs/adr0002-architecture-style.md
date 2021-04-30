@@ -21,8 +21,7 @@ The **Microservices architecture** is the recommended architecture, as it maximi
 
 ## Decision
 
-_Option chosen_
-
+An Event-Driver Microservice Architecture to be used
 
 ## Consequences
-_Consequences of taking the decision_
+Budget to be re-assured in light of the choice. Strong attention to platform monitoring/operation to mitigate operational issues.
