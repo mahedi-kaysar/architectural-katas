@@ -2,7 +2,7 @@
 Creation: 28.Apr.2021
 
 ## Status (proposed, accepted, rejected, deprecated, superseded)
-tbd
+proposed
 
 ## Context
 There are two possibilites to model the processing of tickets in the system.  
