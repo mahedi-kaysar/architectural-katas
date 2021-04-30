@@ -6,7 +6,7 @@ _current status_
 
 ## Context
 The current architecture style of the system is a monolith.  
-The following limitations were identified when analysing the documentation/slides and video.  
+The following limitations (pink stikers) were identified when analysing the documentation/slides and video. The architecture characteristic (quality attribute) which needs to be addressed is shown in yellow.  
 <p align="center">
 <img width="50%" src="images/issues-and-quality-attributes.png"/>  
 </p>
