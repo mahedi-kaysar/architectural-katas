@@ -21,7 +21,7 @@ There are two possibilites to model the processing of tickets in the system.
 </p>
 
 The "Two modules approach" allows for higher maintainability and fault-tolerance (if "Ticket Capture" is down, "Device Repair" can still be done).  
-The "One Module approach" reduces system complexity, centralizing ticket handling   
+The "One Module approach" reduces system complexity, centralizing ticket handling.   
 
 ## Decision
 
