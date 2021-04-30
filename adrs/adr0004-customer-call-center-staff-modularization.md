@@ -14,7 +14,8 @@ On the other hand, potential downtime on modules interfacing with Customer are s
 
 ## Decision
 
-Customer actions and Call Center actions will be supported by the same module.
+Customer actions and Call Center actions will be supported by the same module.  
+Customer and Call Center will have distinct entitlements and supported by the same business service.  
 
 
 ## Consequences
