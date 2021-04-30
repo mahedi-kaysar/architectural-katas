@@ -8,7 +8,7 @@ tbd
 There are two possibilites to model the processing of tickets in the system.  
 - Two modules approach:  
   - Module "Ticket Capture" - having the responsibility to capture a client's ticket.  
-  - Module "Ticket Fullfillment" - having the responsibility to fullfill the ticket (used mostly by the Expert during the repair process).  
+  - Module "Device Repair" - having the responsibility to fullfill the ticket (used mostly by the Expert during the repair process).  
 <p align="center">
 <img width="50%" src="images/ticket-capture-device-repair.png"/>  
 </p>
