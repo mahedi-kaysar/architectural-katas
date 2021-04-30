@@ -2,7 +2,7 @@
 Creation: 26.Apr.2021
 
 ## Status (proposed, accepted, rejected, deprecated, superseded)
-proposed
+accepted
 
 ## Context
 The current architecture style of the system is a monolith.  
