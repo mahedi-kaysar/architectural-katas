@@ -18,7 +18,7 @@ There are two possibilites to model the processing of tickets in the system.
 <img width="50%" src="images/ticket-handler.png"/>  
 </p>
 The "Two modules approach" enforces better segregation of duty and alows for higher maintainability.  
-The "One Module approach" reduces system complexity.  
+The "One Module approach" reduces system complexity, centralizing ticket handling   
 
 ## Decision
 
