@@ -1,4 +1,4 @@
-# ARD0003 - _Name of ADR_
+# _adrId_ - _Name of ADR_
 Creation: _creation date_
 
 ## Status (proposed, accepted, rejected, deprecated, superseded)
