@@ -11,6 +11,7 @@ There are two options to integrate the application with services outside the com
 pros:
 - reduced development time  
 - less operational overhead  
+
 cons:
 - coupling internal services with external APIs/applications  
 
@@ -18,6 +19,7 @@ cons:
 pros:  
 - decopling the internal services from external apis
 - individual scaling based on load  
+
 cons:  
 - operational overhead  
 - increate development time  
