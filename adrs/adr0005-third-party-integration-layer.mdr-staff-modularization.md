@@ -1,1 +1,1 @@
-# ADR0005 - Thirt Party Integration Layer
+# ADR0005 - Third Party Integration Layer
