@@ -23,5 +23,5 @@
 ## Data Model
 
 <p align="center">
-<img width="100%" src="data-model.png"/>  
+<img width="100%" src="images/datamodel.png"/>  
 </p>
