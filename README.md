@@ -51,7 +51,15 @@ Moreover, we have utilized the event storm to build understanding and confidence
 | Component        | Descriptions|
 | ------------- |:-------------:|
 | Contract Capture Service      | right-aligned |
-| Ticket Capture Service      | cen      |
+| Ticket Capture Service      |       |
+| Ticket Allocation Service      |       |
+| Device Repair Service      |       |
+| Survey Fulfillment Service      |       |
+| Knowledge Base Service      |       |
+| Administrator Service      |       |
+| Analytics Service      |       |
+| Logging and Aggregration service     |       |
+
 
 ## Data Model
 
