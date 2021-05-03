@@ -17,7 +17,7 @@
 ## Actor/Action
 
 <p align="center">
-<img width="50%" src="images/actor-actions.png"/>  
+<img width="50%" src="images/actor-action.png"/>  
 </p>
 
 ## Event Storm
