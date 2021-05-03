@@ -4,6 +4,15 @@
 <img width="50%" src="images/approach.png"/>  
 </p>
 
+## Contributors
+
+| Name        | LinkedIn|
+| ------------- |-------------|
+| Marcelo Romaniuc     | https://www.linkedin.com/in/marceloromaniuc/ |
+| Mahedi Kaysar       | https://www.linkedin.com/in/md-mahedi-kaysar/ |
+| Mohamed Abdelaziz  | https://www.linkedin.com/in/mabdelazez/ |
+| Ahmed Bahet       | https://www.linkedin.com/in/ahmedbahet/ |
+
 ## Introduction
 
 The given Sysops Squad system has many drawbacks that include customer and call center stuff complains about losing track of the created tickets, wrong consultant shows up to fix the customer's problem, system freezes or crashes during a spike and changes in the system is very difficult due to its monolith archtecture. These drawbacks are due to not having proper architectural dicision and design. In order to resolve those problems we have considers following set of actions:
