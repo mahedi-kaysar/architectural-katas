@@ -1,5 +1,9 @@
 ﻿# architectural-katas
 
+<p align="center">
+<img width="50%" src="images/approach.png"/>  
+</p>
+
 ## Introduction
 
 ## Architecture Characteristics
