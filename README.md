@@ -47,7 +47,7 @@ There are different types of architectural style exist (Layered, Modular-Monolit
 
 ## Actor/Action
 
-Here, we have identified the actors and actions from the exiting architecture and given functinalites of the system.
+Here, we have identified the actors and actions from the exiting architecture and given functionalites of the system.
 
 <p align="center">
 <img width="100%" src="images/actor-action.png"/>  
