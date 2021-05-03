@@ -50,9 +50,9 @@ Moreover, we have utilized the event storm to build understanding and confidence
 
 | Component        | Description|
 | ------------- |-------------|
-| Contract Capture Service      | Contains the business logic to match Technology Experts and tickets. Highly specialized service that can evolve independently from the other microservices to include fuzzy logic, account for route optimization and optimization of technology experts working time. Can also have elements of AI and integration with Knowledge Base in the future |
-| Ticket Capture Service      |       |
-| Ticket Allocation Service      |       |
+| Contract Capture Service      | Responsible for customer onboarding to the platform and manage Customer Contracts. Client face critical service. |
+| Ticket Capture Service      | Responsible for ticket creation and ticket updates. Shared between Clients and Support Staff. Client face critical service.      |
+| Ticket Allocation Service      | Contains the business logic to match Technology Experts and tickets. Highly specialized service that can evolve independently from the other microservices to include fuzzy logic, account for route optimization and optimization of technology experts working time. Can also have elements of AI and integration with Knowledge Base in the future.      |
 | Device Repair Service      |       |
 | Survey Fulfillment Service      |       |
 | Knowledge Base Service      |       |
