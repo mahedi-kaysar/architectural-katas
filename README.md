@@ -57,8 +57,8 @@ Moreover, we have utilized the event storm to build understanding and confidence
 | Survey Fulfillment Service      | Responsible for supporting the customer on the fulfillment of the survey. Once the Device Repair service completes a tickets this service will be triggered and customers get notified through internet providers. The reason of coupling notification service is here: [ARD0005](adrs/adr0005-third-party-integration-layer.mdr-staff-modularization.md)      |
 | Knowledge Base Service      | Responsible for the providing the information about previous resolutions as well as documentation of supported products.       |
 | Administrator Service      | Supports all administrative tasks such as new product creation, employee/staff maintenance.      |
-| Analytics Service      |       |
-| Logging and Aggregration service     |       |
+| Analytics Service      |  Responsible to provide realtime reports on the overal performance of the company. Provides multiple metrics and KPIs for Business Inteligence. Receives realtime data from all the other services, compiling and aggregating the information for Management decisions.      |
+| Logging and Aggregration service     | Compiles log information from all platform to support the Site Reliability Engineer on monitoring and troubleshooting technical issues with the platform.      |
 
 
 ## Data Model
