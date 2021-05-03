@@ -27,7 +27,7 @@ The given Sysops Squad system has many drawbacks that include customer and call 
 * _Data Model_ - having the topology defined we analysed the current data model in order to split the existing tables into aggregates into the target model. 
 * _Migration Strategy_ - we finally suggest a possible approach for the migration from the current system to the new system.
 
-During all steps we made usage of ADR to support our decisions. Diagrams and text will contain references to the ADRs, when relevant.
+During all steps we made usage of ADRs to support our decisions. Diagrams and text will contain references to the ADRs, when relevant. Moreover, the list of all the ADRs can be found [here](adrs).
 
 ## Architecture Characteristics
 
