@@ -8,6 +8,10 @@
 
 ## Architecture Characteristics
 
+<p align="center">
+<img width="100%" src="images/issues-and-quality-attributes.png"/>  
+</p>
+
 ## Architecture Style
 
 ## Actor/Action
