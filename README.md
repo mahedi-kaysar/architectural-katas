@@ -9,7 +9,7 @@
 ## Architecture Characteristics
 
 <p align="center">
-<img width="100%" src="images/issues-and-quality-attributes.png"/>  
+<img width="100%" src="adrs/images/issues-and-quality-attributes.png"/>  
 </p>
 
 ## Architecture Style
