@@ -1,4 +1,4 @@
-﻿# architectural-katas
+﻿# Architectural-Katas-Team-3
 
 <p align="center">
 <img width="50%" src="images/approach.png"/>  
@@ -52,11 +52,11 @@ Moreover, we have utilized the event storm to build understanding and confidence
 | ------------- |-------------|
 | Contract Capture Service      | Responsible for customer onboarding to the platform and manage Customer Contracts. Client face critical service. |
 | Ticket Capture Service      | Responsible for ticket creation and ticket updates. Shared between Clients and Support Staff. Client face critical service.      |
-| Ticket Allocation Service      | Contains the business logic to match Technology Experts and tickets. Highly specialized service that can evolve independently from the other microservices to include fuzzy logic, account for route optimization and optimization of technology experts working time. Can also have elements of AI and integration with Knowledge Base in the future.      |
+| Ticket Allocation Service      | Contains the business logic to match Technology Experts and tickets. Highly specialized service that can evolve independently from the other microservices to include fuzzy logic, account for route optimization and optimization of technology experts working time. Can also have elements of AI and integration with Knowledge Base in the future. It also integrates the third party applications such as googlemaps to get geolocation information of experts and customers in realtime, internets providers to send sms or push notification to the exterts about a new ticket and custommers about the status of the ticket. We have coupled the notification service into this service based on the [ARD0005](adrs/adr0005-third-party-integration-layer.mdr-staff-modularization.md)      |
 | Device Repair Service      | Supports the technical expert on the closure of a ticket. We decided to keep it separated from the Ticket Capture Services. For the rational on the decision, please refer to [ADR0003](adrs/adr0003-modularization-ticket_processing.md).      |
-| Survey Fulfillment Service      | Responsible for supporting the customer on the fulfillment of the survey.      |
-| Knowledge Base Service      |       |
-| Administrator Service      |       |
+| Survey Fulfillment Service      | Responsible for supporting the customer on the fulfillment of the survey. Once the Device Repair service completes a tickets this service will be triggered and customers get notified through internet providers. The reason of coupling notification service is here: [ARD0005](adrs/adr0005-third-party-integration-layer.mdr-staff-modularization.md)      |
+| Knowledge Base Service      | Responsible for the providing the information about previous resolutions as well as documentation of supported products.       |
+| Administrator Service      | Supports all administrative tasks such as new product creation, employee/staff maintenance.      |
 | Analytics Service      |       |
 | Logging and Aggregration service     |       |
 
