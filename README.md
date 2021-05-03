@@ -6,6 +6,11 @@
 
 ## Introduction
 
+The given Sysops Squad system has many drawbacks that include customer and call center stuff complains about losing track of the created tickets, wrong consultant shows up to fix the customer's problem, system freezes or crashes during a spike and changes in the system is very difficult due to its monolith archtecture. These drawbacks are due to not having proper architectural dicision and design. In order to resolve those problems we have considers following set of actions:
+* Understanding the problems and identified the architectural characterstics for solving the problems
+* Defined the new architeture style by Actor/Action and Event Storm approaches. 
+* Define some ADRs
+
 ## Architecture Characteristics
 
 We have analysed the slides and the video in order to extract the main challenges faced by sysops with the existing system.
