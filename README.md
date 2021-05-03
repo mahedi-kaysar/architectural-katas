@@ -23,7 +23,7 @@
 ## Event Storm
 
 <p align="center">
-<img width="50%" src="images/sysops-event-storm.png"/>  
+<img width="75%" src="images/sysops-event-storm.png"/>  
 </p>
 
 ## Architectural Topology
