@@ -3,5 +3,5 @@
 ## Architectural Topology
 
 <p align="center">
-<img width="50%" src="images/katalysts_arch.png"/>  
+<img width="100%" src="katalysts_arch.png"/>  
 </p>
