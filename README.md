@@ -63,6 +63,11 @@ Moreover, we have utilized the event storm to build understanding and confidence
 
 
 ## Data Model
+The datamodel from the current monolith datamodel is complex and has many interdependencies on the tables. 
+<p align="center">
+<img width="100%" src="images/existing-tables.png"/>  
+</p>
+We have analysed the Sysops monolith datamodel and here we propose the segregation of data according to the functional decomposition of the microservices. All data is shared via well defined APIs and there is NO database sharing among the microservices. It is to be noted that, in order to remove the dependencies among microservices, so entities are duplicated (example: Supported Product). This is intentional and by design.
 
 <p align="center">
 <img width="100%" src="images/datamodel.png"/>  
