@@ -16,6 +16,10 @@
 
 ## Actor/Action
 
+<p align="center">
+<img width="50%" src="images/actor-actions.png"/>  
+</p>
+
 ## Event Storm
 
 ## Architectural Topology
