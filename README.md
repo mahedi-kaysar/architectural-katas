@@ -28,12 +28,15 @@ There are different types of architecurual style exist (Layered, Modular-Monolit
 </p>
 
 ## Actor/Action
+Here, we have identified the actors and actions from the exiting architecture and given functinalites of the system.
 
 <p align="center">
 <img width="100%" src="images/actor-action.png"/>  
 </p>
 
 ## Event Storm
+The Actor/Action method allowed us to have a first view of the services and the interaction among them.
+Moreover, we have utilized the event storm to build understanding and confidence on the solution approach we are proposing. As the diagram below shows, we could visualize the functions that would be implemented by each service and also the way the services would interact in the future platform.
 
 <p align="center">
 <img width="75%" src="images/sysops-event-storm.png"/>  
