@@ -19,12 +19,13 @@ The given Sysops Squad system has many drawbacks that include customer and call 
 <img width="50%" src="images/approach.png"/>  
 </p>
 
-* Problem statement - identify the current issues and the related architecture characteristics associated to the issues;
-* Identify the ideal Architecture style -  we look at all the spectrum of architecture styles and search for the one which optmizes the architecture characteristics identifed in the previous step;
-* Definition of modules/services - Once the architecture style is defined we utillize the Action/Actor and Event Storm techniques to depict the modules/services that will be part of the solution.  We iterate on the services to refine the final solution;
-* Topology - once we have the modules/services defined we construct the architecture topology, identifying elements of the architecture such as UIs, integration with external systems and communication among the microservices;
-* Data Model - having the topology defined we analysed the current data model in order to split the existing tables into aggregates into the target model. 
-* Migration Strategy - we finally suggest a possible approach for the migration from the current system to the new system.
+* _Problem statement_ - identify the current issues afecting stakeholders
+* _Identify architecture characteristics_ - identify the relevant architecture characteristic associated to the issues identifed in the previous step;
+* _Identify the ideal Architecture style_ -  we look at all the spectrum of architecture styles and search for the one which optmizes the architecture characteristics identifed in the previous step;
+* _Definition of modules/services_ - Once the architecture style is defined we utillize the Action/Actor and Event Storm techniques to depict the modules/services that will be part of the solution.  We iterate on the services to refine the final solution;
+* _Topology_ - once we have the modules/services defined we construct the architecture topology, identifying elements of the architecture such as UIs, integration with external systems and communication among the microservices;
+* _Data Model_ - having the topology defined we analysed the current data model in order to split the existing tables into aggregates into the target model. 
+* _Migration Strategy_ - we finally suggest a possible approach for the migration from the current system to the new system.
 
 During all steps we made usage of ADR to support our decisions. Diagrams and text will contain references to the ADRs, when relevant.
 
