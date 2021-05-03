@@ -48,9 +48,9 @@ Moreover, we have utilized the event storm to build understanding and confidence
 <img width="100%" src="images/katalysts_arch.png"/>  
 </p>
 
-| Component        | Descriptions|
+| Component        | Description|
 | ------------- |:-------------:|
-| Contract Capture Service      | right-aligned |
+| Contract Capture Service      |  |
 | Ticket Capture Service      |       |
 | Ticket Allocation Service      |       |
 | Device Repair Service      |       |
