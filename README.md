@@ -22,10 +22,14 @@ Once we identified the main issues (represented below by the pink stickers) we v
 
 ## Architecture Style
 
+<p align="center">
+<img width="100%" src="adrs/images/architecture-styles-worksheet-annotated.png"/>  
+</p>
+
 ## Actor/Action
 
 <p align="center">
-<img width="50%" src="images/actor-action.png"/>  
+<img width="100%" src="images/actor-action.png"/>  
 </p>
 
 ## Event Storm
