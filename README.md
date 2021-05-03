@@ -53,7 +53,7 @@ Moreover, we have utilized the event storm to build understanding and confidence
 | Contract Capture Service      | Responsible for customer onboarding to the platform and manage Customer Contracts. Client face critical service. |
 | Ticket Capture Service      | Responsible for ticket creation and ticket updates. Shared between Clients and Support Staff. Client face critical service.      |
 | Ticket Allocation Service      | Contains the business logic to match Technology Experts and tickets. Highly specialized service that can evolve independently from the other microservices to include fuzzy logic, account for route optimization and optimization of technology experts working time. Can also have elements of AI and integration with Knowledge Base in the future.      |
-| Device Repair Service      | Supports the technical expert on the closure of a ticket. We decided to keep it separated from the Ticket Capture Services. For the rational on the decision, please refer to [ADR0003](ards/adr0003-modularization-ticket_processing.md).      |
+| Device Repair Service      | Supports the technical expert on the closure of a ticket. We decided to keep it separated from the Ticket Capture Services. For the rational on the decision, please refer to [ADR0003](adrs/adr0003-modularization-ticket_processing.md).      |
 | Survey Fulfillment Service      |       |
 | Knowledge Base Service      |       |
 | Administrator Service      |       |
