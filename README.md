@@ -1,8 +1,6 @@
 ﻿# Architectural-Katas-Team-3
 
-<p align="center">
-<img width="50%" src="images/approach.png"/>  
-</p>
+
 
 ## Contributors
 
@@ -15,13 +13,17 @@
 
 ## Introduction
 
-The given Sysops Squad system has many drawbacks that include customer and call center staff complains about losing track of the created tickets, wrong consultant showing up to fix the customer's problem, system freezing or crashing during a spike and changes in the system is very difficult due to its monolith archtecture. These drawbacks are due to not having proper architectural decision and design. We propose to use the techniques presented in the Architectural Katas course to tackle these issues. We are using a top-down approach with the following steps:
+The given Sysops Squad system has many drawbacks that include customer and call center staff complains about loosing track of the created tickets, wrong consultant showing up to fix the customer's problem, system freezing or crashing during a spike and changes in the system are very difficult due to its monolith archtecture. These drawbacks are due to not having proper architectural decision and design. We propose to use the techniques presented in the Architectural Katas course to tackle these issues. We are using a top-down approach with the following steps:
+
+<p align="center">
+<img width="50%" src="images/approach.png"/>  
+</p>
 
 * Problem statement - identify the current issues and the related architecture characteristics associated to the issues;
 * Identify the ideal Architecture style -  we look at all the spectrum of architecture styles and search for the one which optmizes the architecture characteristics identifed in the previous step;
 * Definition of modules/services - Once the architecture style is defined we utillize the Action/Actor and Event Storm techniques to depict the modules/services that will be part of the solution.  We iterate on the services to refine the final solution;
-* Topology - once we have the modules/servics defined we construct the architecture topology, identifying elements of the architecture such as UIs, integration with external systems and communication among the microservices;
-* Data Model - having the topology defined we analysed the current datamodel in order to split the existing tables into aggregates into the target model. 
+* Topology - once we have the modules/services defined we construct the architecture topology, identifying elements of the architecture such as UIs, integration with external systems and communication among the microservices;
+* Data Model - having the topology defined we analysed the current data model in order to split the existing tables into aggregates into the target model. 
 * Migration Strategy - we finally suggest a possible approach for the migration from the current system to the new system.
 
 During all steps we made usage of ADR to support our decisions. Diagrams and text will contain references to the ADRs, when relevant.
