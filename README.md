@@ -30,13 +30,15 @@ Once we identified the main issues (represented below by the pink stickers) we v
 </p>
 
 ## Architecture Style
-There are different types of architecurual style exist (Layered, Modular-Monolith, Microkernel, Microservice and so on) and those are also mentioned in the book [Mark Richards and Neal Ford, Fundamentals of Software Architecture](https://learning.oreilly.com/library/view/fundamentals-of-software/9781492043447/). We have analised the pros and cons between the two style that include modular-monolith and microservice architecture in the [ADR0002](adrs/adr0002-architecture-style.md). Finally we have decided to use microservic architecutural sytle in order to solve the current system architecutre.
+
+There are different types of architectural style exist (Layered, Modular-Monolith, Microkernel, Microservice and so on) and those are also mentioned in the book [Mark Richards and Neal Ford, Fundamentals of Software Architecture](https://learning.oreilly.com/library/view/fundamentals-of-software/9781492043447/). We have analised the pros and cons between the two style that include modular-monolith and microservice architecture in the [ADR0002](adrs/adr0002-architecture-style.md). Finally we have decided to use microservic architecutural sytle in order to solve the current system architecutre.
 
 <p align="center">
 <img width="100%" src="adrs/images/architecture-styles-worksheet-annotated.png"/>  
 </p>
 
 ## Actor/Action
+
 Here, we have identified the actors and actions from the exiting architecture and given functinalites of the system.
 
 <p align="center">
@@ -44,6 +46,7 @@ Here, we have identified the actors and actions from the exiting architecture an
 </p>
 
 ## Event Storm
+
 The Actor/Action method allowed us to have a first view of the services and the interaction among them.
 Moreover, we have utilized the event storm to build understanding and confidence on the solution approach we are proposing. As the diagram below shows, we could visualize the functions that would be implemented by each service and also the way the services would interact in the future platform.
 
@@ -72,6 +75,7 @@ Moreover, we have utilized the event storm to build understanding and confidence
 
 
 ## Data Model
+
 The datamodel from the current monolith datamodel is complex and has many interdependencies on the tables. 
 
 <p align="center">
@@ -84,3 +88,7 @@ We have analysed the Sysops monolith datamodel and here we propose the segregati
 <p align="center">
 <img width="75%" src="images/datamodel.png"/>  
 </p>
+
+## Migration Strategy
+
+Due to the difference between the monolith and microservice architecture style we recomend to migration the "Big Bang" approach.
