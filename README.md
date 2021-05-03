@@ -49,7 +49,7 @@ Moreover, we have utilized the event storm to build understanding and confidence
 </p>
 
 | Component        | Description|
-| ------------- |:-------------:|
+| ------------- |-------------|
 | Contract Capture Service      | Contains the business logic to match Technology Experts and tickets. Highly specialized service that can evolve independently from the other microservices to include fuzzy logic, account for route optimization and optimization of technology experts working time. Can also have elements of AI and integration with Knowledge Base in the future |
 | Ticket Capture Service      |       |
 | Ticket Allocation Service      |       |
