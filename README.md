@@ -21,6 +21,7 @@ Once we identified the main issues (represented below by the pink stickers) we v
 </p>
 
 ## Architecture Style
+There are different types of architecurual style exist (Layered, Modular-Monolith, Microkernel, Microservice and so on) and those are also mentioned in the book [Mark Richards and Neal Ford, Fundamentals of Software Architecture](https://learning.oreilly.com/library/view/fundamentals-of-software/9781492043447/). We have analised the pros and cons between the two style that include modular-monolith and microservice architecture. Finally we have decided to use microservic architecutural sytle in order to solve the current system architecutre.
 
 <p align="center">
 <img width="100%" src="adrs/images/architecture-styles-worksheet-annotated.png"/>  
