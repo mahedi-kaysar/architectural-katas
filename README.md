@@ -48,6 +48,11 @@ Moreover, we have utilized the event storm to build understanding and confidence
 <img width="100%" src="images/katalysts_arch.png"/>  
 </p>
 
+| Component        | Descriptions|
+| ------------- |:-------------:|
+| Contract Capture Service      | right-aligned |
+| Ticket Capture Service      | cen      |
+
 ## Data Model
 
 <p align="center">
