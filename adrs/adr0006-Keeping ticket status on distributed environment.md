@@ -12,7 +12,8 @@ On a distributed architecture entities are segregated functionally per microserv
 
 There are 2 possible approaches to obtain the ticket status:
 
-1 - microservices interested in the ticket status query all three services to reconstitute the final status. 
+1 - microservices interested in the ticket status query all three services to reconstitute the final status.
+
 cons:  
 - not easy to control, for instance if a new microservice, which updates the status, is added, all the other microservices must be updated.
 
