@@ -32,7 +32,7 @@ During all steps we made usage of ADRs to support our decisions. Diagrams and te
 ## Architecture Characteristics
 
 We have analysed the slides and the video in order to extract the main challenges faced by sysops with the existing system.
-Once we identified the main issues (represented below by the pink stickers) we verified which Architecture Characteristics (Scalabilty, Elasticity, Fault-tolerence, Testability and Evolbalility) are most relevant to address the identified issues. As a reference for the list of architecture characteristics we utilized the book [Mark Richards and Neal Ford, Fundamentals of Software Architecture](https://learning.oreilly.com/library/view/fundamentals-of-software/9781492043447/). The architecture characteristics are represented by the yellow stickers below.
+Once we identified the main issues (represented below by the pink stickers) we verified which Architecture Characteristics (Scalabilty, Elasticity, Fault-tolerence, Testability and Evolvability) are most relevant to address the identified issues. As a reference for the list of architecture characteristics we utilized the book [Mark Richards and Neal Ford, Fundamentals of Software Architecture](https://learning.oreilly.com/library/view/fundamentals-of-software/9781492043447/). The architecture characteristics are represented by the yellow stickers below.
 
 <p align="center">
 <img width="50%" src="adrs/images/issues-and-quality-attributes.png"/>  
