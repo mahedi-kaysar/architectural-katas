@@ -57,7 +57,8 @@ Here, we have identified the actors and actions from the exiting architecture an
 ## Event Storm
 
 The Actor/Action method allowed us to have a first view of the services and the interaction among them.
-Moreover, we have utilized the event storm to build understanding and confidence on the solution approach we are proposing. As the diagram below shows, we could visualize the functions that would be implemented by each service and also the way the services would interact in the future platform.
+Moreover, we have utilized the event storm to build understanding and confidence on the solution approach we are proposing. As the diagram below shows, we could visualize the functions that would be implemented by each service and also the way the services would interact in the future platform.  
+On the below diagram we have the most important actions and events. We focused on the happy path. As one example, we have the event for "Device fixed" but not for "Device not fixed". This is intentional in order to avoid cluttering the diagram. 
 
 <p align="center">
 <img width="75%" src="images/sysops-event-storm.png"/>  
