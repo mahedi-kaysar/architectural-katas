@@ -19,7 +19,7 @@ The given Sysops Squad system has many drawbacks that include customer and call 
 <img width="50%" src="images/approach.png"/>  
 </p>
 
-* _Problem statement_ - identify the current issues affecting stakeholders
+* _Problem statement_ - identify the limitations of the current system and issues affecting stakeholders
 * _Identify architecture characteristics_ - identify the relevant architecture characteristic associated to the issues identifed in the previous step;
 * _Identify the ideal Architecture style_ -  we look at all the spectrum of architecture styles and search for the one which optmizes the architecture characteristics identifed in the previous step;
 * _Definition of modules/services_ - Once the architecture style is defined we utillize the Action/Actor and Event Storm techniques to depict the modules/services that will be part of the solution.  We iterate on the services to refine the final solution;
