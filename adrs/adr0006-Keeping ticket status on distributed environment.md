@@ -11,13 +11,14 @@ On a monolith architecture style the system can keep the transaction integrity a
 On a distributed architecture entities are segregated functionally per microservice. Nevertheless, some entity information might span across mulitple microservices. In our specific case, the status of a ticket (captured, allocated, fixed) spam accross multiple microservices: the "Ticket Capture", "Ticket Allocation" and "Device Repair". These microservices all contribute to the overall state of the Ticket.
 
 There are 2 possible approaches to obtain the ticket status:
-- microservices interested in the ticket status query all three services to reconstitute the final status.  
+
+1 - microservices interested in the ticket status query all three services to reconstitute the final status.  
 cons:
   - not easy to control, for instance if a new microservice, which updates the status, is added, all the other microservices must be updated.
 
-- consolidate the state into a single microservice, propagating the changes on status done by other microservices. Microservices/UI interested into the status must query a single service.  
+2 - consolidate the state into a single microservice, propagating the changes on status done by other microservices. Microservices/UI interested into the status must query a single service.  
 pros:
-  - status is consolidated (owned) by one microservice 
+  - status is consolidated (owned) by one microservice  
 cons:
   - other microservices needs to publish event changes.
 
