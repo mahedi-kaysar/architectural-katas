@@ -7,7 +7,7 @@ accepted
 
 ## Context
 
-On a monolith architecture style the system can keep the transaction integrity at all times at cost of scalability. Duplication of data entities do no occur as all entities are accessible from the same runtime/application.
+On a monolith architecture the system can keep the transaction integrity at all times at cost of scalability. Duplication of data entities do no occur as all entities are accessible from the same runtime/application.
 On a distributed architecture entities are segregated functionally per microservice. Nevertheless, some entity information might span across mulitple microservices. In our specific case, the status of a ticket (captured, allocated, fixed) spam accross multiple microservices: the "Ticket Capture", "Ticket Allocation" and "Device Repair". These microservices all contribute to the overall state of the Ticket.
 
 There are 2 possible approaches to obtain the ticket status:
